@@ -10,7 +10,7 @@ module RailsJQueryAutocomplete
   end
 end
 
-class ActionController::Base
+ActiveSupport.on_load(:action_controller) do
   include RailsJQueryAutocomplete::Autocomplete
 end
 

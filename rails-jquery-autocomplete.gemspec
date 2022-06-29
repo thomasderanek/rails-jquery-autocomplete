@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "rails-jquery-autocomplete/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{rails-jquery-autocomplete}
+  s.name = %q{rails-jquery-autocomplete-local}
   s.version = RailsJQueryAutocomplete::VERSION
   s.platform = Gem::Platform::RUBY
   s.authors = ["David Padilla", "Joiey Seeley", "Sundus Yousuf"]
@@ -35,4 +35,3 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 end
-
